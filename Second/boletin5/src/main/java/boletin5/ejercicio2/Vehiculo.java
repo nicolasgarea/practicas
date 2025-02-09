@@ -1,6 +1,6 @@
-package Ejercicio2;
-public class Vehiculo {
+package boletin5.ejercicio2;
 
+public class Vehiculo {
     private String marca;
     private String modelo;
     private TipoCombustible tipoCombustible;
@@ -29,4 +29,3 @@ public class Vehiculo {
         System.out.println("Marca: " + marca + ", Modelo: " + modelo + ", Tipo de Combustible: " + tipoCombustible);
     }
 }
-

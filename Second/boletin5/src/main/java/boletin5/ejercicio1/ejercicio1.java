@@ -1,8 +1,9 @@
-package Ejercicio1;
+package boletin5.ejercicio1;
+
 import java.util.ArrayList;
 
-public class Ejercicio1 {
-    public static void main(String[] args) {
+public class ejercicio1 {
+        public static void main(String[] args) {
         ArrayList<Persona> listaPersonas = new ArrayList<Persona>();
         listaPersonas.add(new Persona("Jose", "Martinez Granda", 55));
         listaPersonas.add(new Persona("Katy", "Ruiz Gomez", 24));
@@ -19,7 +20,5 @@ public class Ejercicio1 {
         for (Persona persona: listaPersonas){
             System.out.println(persona.toString());
         }
-        // utilización del toString()
-
-    }
+}
 }

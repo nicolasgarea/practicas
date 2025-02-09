@@ -1,4 +1,5 @@
-package Ejercicio1;
+package boletin5.ejercicio1;
+
 import java.util.ArrayList;
 
 public class Persona {
@@ -47,5 +48,4 @@ public class Persona {
     public String toString(){
         return "Nombre: "+getNombre()+" Edad: "+getEdad();
     }
-    
-}// class
+}
