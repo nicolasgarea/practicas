@@ -1,6 +1,12 @@
 package boletin5.ejercicio5;
 
 public class BucleWhile implements IBucle{
+
+    public static void main(String[] args) {
+        BucleWhile bucleWhile = new BucleWhile();
+        bucleWhile.mostrar(5);
+        bucleWhile.mostrar(5, 10);
+    }
     @Override
     public void mostrar(int valorHasta) {
         int i=0;
