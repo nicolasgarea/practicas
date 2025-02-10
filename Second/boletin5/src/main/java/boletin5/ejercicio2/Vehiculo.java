@@ -1,5 +1,7 @@
 package boletin5.ejercicio2;
 
+import java.util.ArrayList;
+
 public class Vehiculo {
     private String marca;
     private String modelo;
@@ -28,4 +30,5 @@ public class Vehiculo {
     public void imprimir() {
         System.out.println("Marca: " + marca + ", Modelo: " + modelo + ", Tipo de Combustible: " + tipoCombustible);
     }
+
 }
