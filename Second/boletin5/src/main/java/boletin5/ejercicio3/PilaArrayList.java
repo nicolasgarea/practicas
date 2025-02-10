@@ -15,6 +15,6 @@ public class PilaArrayList implements IPila{
         return pila.remove(pila.size() - 1);
     }
     public Object cima(){
-        return pila.size() - 1;
+        return pila.get(pila.size() - 1);
     }
 }
